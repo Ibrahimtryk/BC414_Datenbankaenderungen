@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Updates aus Projekt bc414</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZUPDATES_BC414F01</SOBJ_NAME>
+    <SOBJ_NAME>LZUPDATES_BC414TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZUPDATES_BC414</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_01INSERTSCARR</FUNCNAME>
+     <UPDATE_TASK>1</UPDATE_TASK>
+     <SHORT_TEXT>Datensatz in Scarr einfügen</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_SCARR</PARAMETER>
+       <TYP>SCARR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_SCARR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Fluggesellschaft</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_01INSERTSCUSTOM</FUNCNAME>
+     <UPDATE_TASK>1</UPDATE_TASK>
+     <SHORT_TEXT>Datensatz in Scustom einfügen</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_SCUSTOM</PARAMETER>
+       <TYP>SCUSTOM</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_SCUSTOM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Flugkunden</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_01INSERTSPFLI</FUNCNAME>
+     <UPDATE_TASK>1</UPDATE_TASK>
+     <SHORT_TEXT>Datensatz in Tabelle Spfli einfügen</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_SPFLI</PARAMETER>
+       <TYP>SPFLI</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_SPFLI</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Flugplan</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_01_PROT_BUCHUNGEN</FUNCNAME>
+     <UPDATE_TASK>2</UPDATE_TASK>
+     <SHORT_TEXT>Buchungen protokollieren</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_BENUTZER</PARAMETER>
+       <TYP>SYUNAME</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_PROGRAMM</PARAMETER>
+       <TYP>PROGRAM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_AKTION</PARAMETER>
+       <TYP>TEXT40</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_BOOKID</PARAMETER>
+       <TYP>S_BOOK_ID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_BENUTZER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Benutzername</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_PROGRAMM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Programm/Transaktion in SQL-Trace-Auswertung</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_AKTION</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>z.B. Storno oder Einfügen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_BOOKID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Buchungsnummer</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_01_PROT_BUCHUNGEN_SAMMEL</FUNCNAME>
+     <UPDATE_TASK>5</UPDATE_TASK>
+     <SHORT_TEXT>Buchungen protokollieren</SHORT_TEXT>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_NROB" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <ATTRIBUTES>
+    <OBJECT>ZBOOK_01</OBJECT>
+    <DTELSOBJ>S_CARR_ID</DTELSOBJ>
+    <DOMLEN>S_BOOK_ID</DOMLEN>
+    <PERCENTAGE>20.0</PERCENTAGE>
+    <CODE>ZSBOOK_01</CODE>
+    <BUFFER>X</BUFFER>
+    <NOIVBUFFER>00000010</NOIVBUFFER>
+    <NONRSWAP>X</NONRSWAP>
+   </ATTRIBUTES>
+   <TEXT>
+    <LANGU>D</LANGU>
+    <OBJECT>ZBOOK_01</OBJECT>
+    <TXT>Buchungsnummern automatisch generieren</TXT>
+    <TXTSHORT>Buchungsnummern</TXTSHORT>
+   </TEXT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

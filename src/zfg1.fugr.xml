@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Demo Funkionsgruppe</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFG1TOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFG1</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_GET_TABLE_SCARR</FUNCNAME>
+     <SHORT_TEXT>Interne Tabelle übernehmen</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_SCARR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TY_SCARR</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ET_SCARR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabellentyp für SCARR</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_SET_SCARR_01</FUNCNAME>
+     <SHORT_TEXT>Datensatz der Scarr importieren</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_SCARR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>SCARR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_ZAHL</PARAMETER>
+       <DEFAULT>555</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>I</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_SCARR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Fluggesellschaft</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_ZAHL</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
